@@ -1,9 +1,7 @@
-import axios from 'axios';
 
-const API = axios.create({
-  baseURL: 'https://localhost:7059/api',
-});
+import axios from 'axios';
+const API=axios.create({
+  baseURL: 'https://https://hospitalmanagementapplication20260418005920-dzfyechah9b2dzg7.canadacentral-01.azurewebsites.net/swagger/index.htmlhospitalmanagementapplication20260418005920-dzfyechah9b2dzg7.canadacentral-01.azurewebsites.net/api'
+})
 
 export default API;
-
-
