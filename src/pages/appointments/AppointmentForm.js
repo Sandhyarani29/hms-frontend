@@ -26,7 +26,7 @@ function AppointmentForm() {
     const loadData = async () => {
       try {
         const [pRes, dRes] = await Promise.all([
-         // API.get('/Patient/GetAllPatients'),
+          API.get('/Patient/GetAllPatients'),
           API.get('/Doctor/GetAllDoctors'),
         ]);
         setPatients(pRes.data);
